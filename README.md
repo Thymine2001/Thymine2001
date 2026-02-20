@@ -1,5 +1,13 @@
 ## Hi there 👋
 
+### 🐍 贪吃蛇贡献图
+
+<!-- 浅色主题用默认 SVG，深色主题用 dark 版本 -->
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Thymine2001/Thymine2001/output/github-contribution-grid-snake-dark.svg">
+  <img alt="贪吃蛇吃贡献图" src="https://raw.githubusercontent.com/Thymine2001/Thymine2001/output/github-contribution-grid-snake.svg">
+</picture>
+
 <!--
 **Thymine2001/Thymine2001** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
