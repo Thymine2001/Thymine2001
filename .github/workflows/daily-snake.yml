@@ -1,0 +1,31 @@
+# 贪吃蛇每日工作流 - 每天自动提交以点亮贡献图
+name: 🐍 贪吃蛇每日工作流
+
+on:
+  schedule:
+    # 每天 UTC 0:00 运行（北京时间 8:00）
+    - cron: '0 0 * * *'
+  workflow_dispatch: # 允许手动触发
+
+permissions:
+  contents: write
+
+jobs:
+  daily-commit:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: 更新每日活动记录
+        run: |
+          echo "- $(date -u '+%Y-%m-%d %H:%M:%S UTC') 🐍 贪吃蛇打卡" >> activity.log
+
+      - name: 提交并推送
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add activity.log
+          git diff --staged --quiet || (git commit -m "🐍 每日贪吃蛇打卡 $(date -u '+%Y-%m-%d')" && git push)
