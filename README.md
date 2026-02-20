@@ -1,6 +1,10 @@
 ## Hi There 👋
 
-<img src="assets/cat.png" width="280" alt="橘猫从毯子里探出头" align="right" />
+<div align="right">
+  <img src="assets/cat.png" width="280" alt="橘猫从毯子里探出头" />
+  <br/>
+  <sup><strong>━━━➜ My son Ceroni</strong></sup>
+</div>
 
 My name is **Huangyi Tang**. 
 
