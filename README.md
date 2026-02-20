@@ -1,5 +1,7 @@
 ## Hi There 👋
 
+<img src="assets/cat.png" width="280" alt="橘猫从毯子里探出头" align="right" />
+
 My name is **Huangyi Tang**. 
 
 I am a PhD student in the Department of Animal Science at Purdue University.
