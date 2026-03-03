@@ -19,7 +19,7 @@
 <td width="35%" align="center">
 
 <img src="assets/cat.png" width="200"><br>
-<sub><strong>━━━➜ My son Ceroni</strong></sub>
+<sub><strong>━━━➜ My cat Ceroni</strong></sub>
 
 </td>
 </tr>
